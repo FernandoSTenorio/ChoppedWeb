@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<div style=" height: 40%; width: 100%; background-color: #A9E183">
+		<table>
+			<tr>
+				<td><img style="height: 200px; width: 200px " src="img/logo1.png"/></td>
+				<td><marquee><em style="color: green; font-size: 100px">Welcome to CHOPPED</em></marquee></td>
+			</tr>
+		</table>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+
+		<title>Chopped - The Healthy Food Company</title>
+		<meta charset="utf-8"/>
+	</div>
+	</head>
+	<header>
+		<center><table>
+			<tr>
+				<td class="td"><a href="index.html" style="text-decoration: none">
+					<em><strong>Home</strong></em></a></td>
+				<td class="td">	<a href="about.html" style="text-decoration: none;"> 
+					<em><strong>About Us</strong></em>
+					</td></a>
+					<td class="td"> <a href="contact.html" style="text-decoration: none">
+					<em><strong>Contact US</strong></em>
+					</td class="td"></a> 
+					<td class="td"> <a href="products.html" style="text-decoration: none">
+					<em><strong>Products / Services</strong></em>
+					</td></a>
+					<td class="td"><a href="gallery.html" style="text-decoration: none">
+					<em><strong>Gallery</strong></em>
+					</td></a>
+			</tr>
+	</header>
+	</table></center>
+	<body>
+		<marquee>
+			<table>
+				<tr>		
+					<img style="width:350px; height:400px" src="img/Order1.jpeg"/>
+					<img style="width:350px; height:400px" src="img/order2.jpeg"/>
+					<img style="width:350px; height:400px" src="img/order3.jpeg"/>
+					<img style="width:350px; height:400px" src="img/order4.jpeg"/>
+					<img style="width:350px; height:400px" src="img/order5.jpeg"/>
+					<img style="width:350px; height:400px" src="img/order6.jpeg"/>	
+				</tr>
+			</table>
+		</marquee>
+			<h3 style="color: green">Make here your order online:</h3>
+		<script>
+  			$( function() {
+    			$( '#datepicker' ).datepicker({});
+  			} );
+  		</script>
+  			<p>Date: <input type="text" id="datepicker"></p>
+  		<script>
+ 			$( function() {
+    			$( "#accordion" ).accordion();
+  			} );
+ 		 </script>
+ 		 <div id="accordion">
+ 		 	<h3><a href="#">Name</a></h3>
+ 		 	<div> <input style="height: -30%; width: 15%" type="text" placeholder="Name..."/></div>
+ 		 	<h3><a href="#">Address</a></h3>
+ 		 	<div> <input style="height: -30%; width: 15%" type="text" placeholder="Address..."/></div>
+ 		 	<h3><a href="#">Contact</a></h3>
+ 		 	<div> <input style="height: -30%; width: 15%" type="text" placeholder="Contact..."/></div>
+ 		 	<h3><a href="#">Email</a></h3>
+ 		 	<div> <input style="height: -30%; width: 15%" type="text" placeholder="Email..."/></div>
+ 		 	<h3><a href="#">Date</a></h3>
+ 		 	<div > <input type="text" id="datepicker"></div>
+ 		 	<h3><a href="#">Submit</a></h3>
+ 		 	<div ><a href="OrderComplete.html"> <input type="submit" value="submit"></a></div>
+ 		 </div>
+ 		 <script type="text/javascript">
+ 		 $('button, input[type=submit]').button();
+ 		 	
+ 		 </script>
+ 		 <center><div  class="divfooter"><img style="width: 100px; height: 100px" src="img/envato.png"></div></center>
+	</body>
+</html>

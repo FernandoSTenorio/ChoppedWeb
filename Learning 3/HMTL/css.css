@@ -1,0 +1,80 @@
+.relative{
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+	top: 0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+}
+h1{
+	font-family: helvetica, Arial, sans-serif;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+h2{
+	font-family: helvetica, Arial, sans-serif;
+}
+h3{
+	font-family: helvetica, Arial, sans-serif;
+}
+h4{
+	font-family: helvetica, Arial, sans-serif;
+}
+h5{
+	font-family: helvetica, Arial, sans-serif;
+}
+h6{
+	font-family: helvetica, Arial, sans-serif;
+}
+.top{
+	height: 40%; width: 100%; background-color: #A9E183
+}
+a.link{
+	color: #194d19, font-size: 20;
+}
+.td{
+	width: 25%;
+	height: 0;
+
+}
+.font{
+	font-family: helvetica, Arial, sans-serif
+	font-size: 200;
+	color: green;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+.center{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+span{
+	position: center;
+	font-size: 80px;
+	color: green;
+}
+.p{
+	position: center;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	right:0;
+	left: 10;
+
+}
+div.divFooter{
+    position: fixed;
+    bottom: 0;
+  }
+}

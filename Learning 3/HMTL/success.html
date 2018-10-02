@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<div style=" height: 40%; width: 100%; background-color: #A9E183">
+		<table>
+			<tr>
+				<td><img style="height: 200px; width: 200px " src="img/logo1.png"/></td>
+				<td><marquee><em style="color: green; font-size: 100px">Welcome to CHOPPED</em></marquee></td>
+			</tr>
+		</table>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+		<title>Chopped - The Healthy Food Company</title>
+		<meta charset="utf-8"/>
+	</div>
+	</head>
+	<header>
+		<center><table>
+			<tr>
+				<td class="td"><a href="index.html" style="text-decoration: none">
+					<em><strong>Home</strong></em></a></td>
+				<td class="td">	<a href="about.html" style="text-decoration: none;"> 
+					<em><strong>About Us</strong></em>
+					</td></a>
+					<td class="td"> <a href="contact.html" style="text-decoration: none">
+					<em><strong>Contact US</strong></em>
+					</td class="td"></a> 
+					<td class="td"> <a href="products.html" style="text-decoration: none">
+					<em><strong>Products / Services</strong></em>
+					</td></a>
+					<td class="td"><a href="gallery.html" style="text-decoration: none">
+					<em><strong>Gallery</strong></em>
+					</td></a>
+			</tr>
+	</header>
+	</table></center>
+	<a href="index.html">Home</a> &rArr;Sellings<br></br>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme2",
+		title:{
+			text: "Our Most Selling Products"              
+		},
+		animationEnabled: false,
+		data: [              
+		{
+			type: "column",
+			dataPoints: [
+				{ label: "Smoothies",  y: 10  },
+				{ label: "coffee", y: 15  },
+				{ label: "juices", y: 25  },
+				{ label: "Salad Bowl",  y: 30  },
+				{ label: "wraps",  y: 28  }
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<center><div  class="divfooter"><img style="width: 100px; height: 100px" src="img/envato.png"></div></center>
+</body>
+</html>
+

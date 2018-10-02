@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<div style=" height: 40%; width: 100%; background-color: #A9E183">
+		<table>
+			<tr>
+				<td><img style="height: 200px; width: 200px " src="img/logo1.png"/></td>
+				<td><marquee><em style="color: green; font-size: 100px">Welcome to CHOPPED</em></marquee></td>
+			</tr>
+		</table>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+		<title>Chopped - The Healthy Food Company</title>
+		<meta charset="utf-8"/>
+	</div>
+	</head>
+	<header>
+		<center><table>
+			<tr>
+				<td class="td">	<a href="about.html" style="text-decoration: none;"> 
+					<em><strong>About Us</strong></em>
+					</td></a>
+					<td class="td"><a href="order.html" style="text-decoration: none">
+					<em><strong>Order Online</strong></em></a></td>
+					<td class="td"> <a href="contact.html" style="text-decoration: none">
+					<em><strong>Contact US</strong></em>
+					</td class="td"></a> 
+					<td class="td"> <a href="products.html" style="text-decoration: none">
+					<em><strong>Products / Services</strong></em>
+					</td></a>
+					<td class="td"><a href="gallery.html" style="text-decoration: none">
+					<em><strong>Gallery</strong></em>
+					</td></a>
+			</tr>
+	
+	</table></center>
+	</header>
+	<body>
+		<script>
+  			$(function() {
+    			var availableTags = [
+     				{
+     					value: "Salads",
+     					label: "Salads",
+     					desc: "Healthy and clean Salads will make your day even better.",
+     				},
+     				{
+     					value: "Smoothies",
+     					label: "Smoothies",
+     					desc:"Our Smoothies are rich in vitamins, mineral and protein",
+     				},
+     				{
+     					value: "Wraps",
+     					label: "Wraps",
+     					desc: "Here you can choise  between brown or our specially home made, spinach wrap",
+     				},
+     				{
+     					value: "Dressing",
+     					label: "Dressing",
+     					desc: "We have more then 10 types of dressings",
+       				},
+       				{
+       					value: "Chickens",
+       					label: "Chickens",
+       					desc: "Choose your options of Chickens freshly cooked",
+       				},
+    				
+    			];
+    			$( "#availableTags" ).autocomplete({
+     				 source: availableTags
+   				 });
+  			});
+  		</script>
+  		<input style="height: -30%; width: 15%" type="text" id="availableTags" placeholder="Search...">
+  		<a href="success.html" >
+  		<input style="color: green" type='button' value='Our Most Selling Products' onclick='button1()'/>
+  		</a>
+  		
+		<div align="center">
+			<img style=" height: 500px; width: 100%" class="relative"  src="img/home1.jpg">
+			<video width="900" height="480" autoplay> 
+			<source src="img/homevideo.mp4" type="video/mp4"></video>
+			</div>
+			<link rel="alternate" type="application/json+oembed" href="//jqueryui.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjqueryui.com%2Fautocomplete%2F" />
+<link rel="alternate" type="text/xml+oembed" href="//jqueryui.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjqueryui.com%2Fautocomplete%2F&#038;format=xml" />
+		<center><div  class="divfooter"><img style="width: 100px; height: 100px" src="img/envato.png"></div></center>
+	</body>
+
+</html>
